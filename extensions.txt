@@ -1,0 +1,12 @@
+zene.communicate
+zene.information
+zene.hentai_interact
+zene.wiki
+zene.van_mau
+zene.nhentai
+zene.edgegpt
+zene.google_gemini
+zene.dmm_tracker
+zene.test0
+zene.hannom
+zene.google_trans

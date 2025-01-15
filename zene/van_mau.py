@@ -1,0 +1,45 @@
+#!/uargr/bin/python
+# -*- coding: utf-8 -*-
+import discord
+from discord.ext import commands
+
+class van_mau(commands.Cog):
+    def __init__(self,bot):
+        self.bot = bot
+
+    @commands.command()
+    async def vanmau(self, ctx, *, arg):
+        if arg == 'nhóm sắp bị điều tra':
+            await ctx.send('Trong trường hợp nhóm này bị điều tra bởi các cơ quan trực thuộc bộ công an (hoặc các tổ chức chính trị tương tự phục vụ cho nhà nước CHXHCNVN), tôi khẳng định mình không liên quan tới nhóm hoặc những cá nhân khác trong nhóm này. Tôi không rõ tại sao mình lại có mặt ở đây vào thời điểm này, có lẽ tài khoản của tôi đã được thêm bởi một bên thứ ba. Tôi cũng xin khẳng định rằng mình không hề giúp sức cho những hành động chống phá Đảng và nhà nước của các thành viên trong nhóm này')
+        
+        elif arg == 'nhóm đã bị điều tra':
+            await ctx.send('Nhóm này đã bị điều tra bởi các cơ quan trực thuộc Bộ Công an (và/hoặc các tổ chức chính trị tương tự phục vụ cho nhà nước CHXHCNVN). Cơ quan điều tra (CQĐT) khẳng định các thành viên trong này liên quan tới nhóm hoặc những cá nhân khác trong đây. CQĐT biết rõ tại sao các thành viên lại có mặt ở đây vào thời điểm này, tài khoản của họ không được thêm bởi một bên thứ ba mà chính họ tự tham gia vào đây. Các nhân viên của CQĐT cũng xin khẳng định rằng những hành động chống phá Đảng và Nhà nước đã được thực hiện bởi các thành viên trong nhóm này. Nhà nước CHXHCNVN cũng không quên khẳng định quyết tâm chiến thắng đại dịch Covid-19, nhấn mạnh chủ quyền không thể tranh cãi với quần đảo Hoàng Sa và Trường Sa, cũng như tính chính nghĩa của cuộc chiến giải phóng người dân Campuchia khỏi thảm họa diệt chủng Kmer đỏ')
+
+        elif arg == 'hiphop':
+            await ctx.send('tHế nÀo :bangbang::interrobang: lÀ hJp hOp :triumph::triumph::confounded::confounded: dÂy cHuYềN vÀnG:medal::medal::trophy::trophy::military_medal: lÈ lƯỡI lẤy Le :stuck_out_tongue_closed_eyes::stuck_out_tongue_closed_eyes: mỚi GọI :speaking_head::speaking_head: lÀ hJp hOp:clown::clown: tAy :palms_up_together::raised_back_of_hand::middle_finger: cHâN :foot::leg: mIệNg:lips::tongue: xỎ nHiỀu pÁnK xE :doughnut::doughnut::o::o: mỚi gỌi:speaking_head::speaking_head: lÀ hJp hOp :sunglasses::sunglasses::zany_face::zany_face: mẮt hÍp :eye::eyes: mỒm hÓp:lips::kiss::tongue: LuÔn nGhĨ :face_with_raised_eyebrow::face_with_monocle:mÌnH gUcCi :sunglasses::sunglasses::clown::clown: cHỉ kHiẾn m nGu :zany_face::zany_face: đI :man_walking::man_walking:bỞi vÌ hJp hOp :pray::triumph: đẾn tỪ tRoNg tƯ dUy :brain::brain: mÃi mÃi :speak_no_evil::speak_no_evil: ĐứNg đẰnG sAu :man_walking::point_right::man_walking:cẮn :cold_face::grimacing: cÀnG :crab::lobster: lÉn tHì cÀnG:crab::lobster: đAu :confounded::confounded: cẢ đỜi m ChỈ nGưỚc :lying_face::lying_face::astonished::astonished: tHeO t m mUốN lEo cAo :woman_climbing::woman_climbing: nHưNg kO tHể :x::anger::no_entry_sign::o: bẰnG nHaU kO :o:fLeX kO :o:fLeX nHư dIễN vIêN xIếC :man_juggling::person_juggling: dA kHôNg cẦn tHa tHu :lion_face::eagle::spider: nHạC :musical_note::notes: vẪn lUôN LiT :fire::fire: kO cẦn lẤc cẤc :ok_hand::middle_finger::fingers_crossed: nHư đI :man_walking::man_walking: vÀo tAbOo cHó :dog2::dog2: cẮn cÀn :cold_face::grimacing: tHưỜnG lÀ tHíCh nHe rĂng :grin::grin: cHấT rẮn vÀnG :trophy::medal::military_medal: đÒi gẮn xÍcH xE:red_car::red_car: tĂnG :arrow_up::arrow_up: nÊn hỌc nÓi :speaking_head::speaking_head: tRưỚc kHi m hỌc ăN :open_mouth::dog: bỎ qUêN cÁcH fAt Âm kHi tỤi m hỌc vĂn :100::100: brrrzzz.. :clown::clown::clown:')
+
+        elif arg == 'rap':
+            await ctx.send('Ôi, đúng là quái vật Rap việt, kẻ hủy diệt punchline, tổng tư lệnh gun bả, chiến thần chơi chữ, Lỷical god, chúa tể gieo vần, tù trưởng fastflow, đại đội trưởng trung đoàn battle, no1 vipro thí sinh top1 king of rap, thần thoại concept, huyền thoại freestyle, đức chúa rapper, King rap lỏd, lãnh chúa của các thế hệ F1,2,3, người viết lên bí quyết các trận beef, trùm đảo chữ, cụ tổ lái từ , thủy tổ delivery, tướng quân chơi Trap, thầy dạy oldschool, ông tổ autotune, Trùm vocal,thiên tài no beat, Vị thần content, người đột biến Hệ rap, quái thú đồng âm, chiến thần đa nghĩa, dị nhân hán việt, Thần đồng ngôn ngữ, kẻ nắm giữ fact rap việt. Tune thủ quốc gia')
+
+        elif arg == 'thật hài hước':
+            await ctx.send('Xin chào bạn, tôi là nhà tuyển dụng của tập đoàn giải trí Rạp xiếc Trung Ương Group. Trong quá trình tìm kiếm và đào tạo những người hài hước của chúng tôi (đi săn chất xám và nhân tài) tôi nhận thấy bạn là người có khiếu hài hước, tập đoàn chúng tôi thật sự cần một chú hề đúng nghĩa, tôi đã thấy bạn vừa mở mồm là mọi người đã cười ầm lên, không cần phải biểu diễn. Đặc biệt đối với chúng tôi thì những vị trí lãnh đạo rạp xiếc cấp cao phải tìm người "có tâm, có tầm" Một môi trường của những thiên tài hề, xung quanh bạn là những nhân vật: cha đẻ của tiếng cười, nhà khoa học hề, chúa hề địa phương, bait đồ tể, chúa tể rạp xiết Môi trường làm việc năng động, hài hước')
+
+        elif arg == 'đề kháng kém':
+            await ctx.send('Ôi bạn ơi! Bạn sức đề kháng kém là do bạn không chơi đồ đấy bạn ạ, nếu bạn chơi đồ vào thì là đề kháng nó khỏe nó không bao giờ bị ốm đâu bạn ạ, chơi đồ là thuốc bổ mà bạn! Bạn phải nên nhớ nhá, cái viên thuốc bình thường, cái viết thuốc ACID B1 bạn mua có 2 nghìn đc mấy viên đúng k ? Hoặc là 10 nghìn 1 viên, 10 nghìn 1 viên là ACID B1 đấy , đúng không? Thế đây những viên thuốc như viên thuốc kẹo, viên thuốc kim cương, viên thuốc vương liệm này, viên thuốc các kiểu lày thì bạn mua cái đấy vào 500 nghìn 1 viên cơ mà! Chơi cái đấy vào đề kháng nó phải cao hơn chứ bạn! Chơi cái đấy vào nhiều đề kháng mà! Bạn không chơi vào đề kháng bạn kém là phải đấy bạn ạ !')
+
+        elif arg == 'thằng em 96':
+            await ctx.send('Ngành IT Việt Nam hiện nay ở đầu của sự phát triển. Có thể nói IT là vua của các nghề. Vừa có tiền, có quyền. Vừa kiếm được nhiều $ lại được xã hội trọng vọng.\nThằng em mình học bách khoa cơ khí, sinh năm 96. Tự mày mò học code rồi đi làm remote cho công ty Mỹ 2 năm nay. Mỗi tối online 3-4 giờ là xong việc. Lương tháng 3k6. Nhưng thu nhập chính vẫn là từ nhận các project bên ngoài làm thêm. Tuần làm 2,3 cái nhẹ nhàng 9,10k tiền tươi thóc thật không phải đóng thuế. Làm gần được 3 năm mà nhà xe nó đã mua đủ cả. Nghĩ mà thèm.\nGái gú thì cứ nghe nó bảo làm CNTT thì chảy nước. Có bé kia dân du học sinh Úc, về được cô chị giới thiệu làm ngân hàng VCB. Thế nào thằng ấy đi mở thẻ tín dụng gặp phải thế là hốt được cả chị lẫn em. 3 đứa nó sống chung một căn hộ cao cấp. Nhà con bé kia biết chuyện ban đầu phản đối sau biết thằng đấy học IT thì đổi thái độ, cách ba bữa hỏi thăm, năm bữa tặng quà giục cưới kẻo lỡ kèo. Đáng lẽ tháng này là đám cưới tụi nó nhưng dính covid nên dời lại cuối năm rồi.')
+
+    @commands.command()
+    async def non(self, ctx: commands.Context, member: discord.Member):
+        if member.id == 797507405587677185:
+            await ctx.send('Vẫn còn non lắm. Trứng đòi khôn hơn vịt :sunglasses:')
+        else:  
+            await ctx.send(f'Hồi còn trẻ, chân chưa đau, cha và con thường rong ruổi khắp các con phố trên chiếc xe cà tàng. Kỉ niệm đáng nhớ nhất chính là cái lốp cứ đi 3 ngày phải bơm một lần.\nMột ngày, bỗng cha nhìn đứa con với ánh mắt âu yếm:\n- Con biết cái lốp giống gì không?\n- Không ạ - Đứa con đáp\n- Nó giống như <@{member.id}> đấy, **HƠI NON**')
+
+    @commands.command()
+    async def camon(self, ctx: commands.Context, member: discord.Member):
+        await ctx.send(f'Đầu tiên, xin gửi lời cảm ơn chân thành và sự tri ân sâu sắc đối với <@{member.id}> đã nhiệt tình giúp đỡ <@{ctx.author.id}> giải đáp những thắc mắc trong quá trình tìm hiểu và giải quyết vấn đề của bản thân.\nĐể có được lời giải đáp cho vấn đề này, xin bày tỏ lòng biết ơn chân thành và sâu sắc với những người có mặt tại đây. Mắc dù chưa giúp đỡ được những vẫn cảm ơn vì đã chú ý đến và những người đang giúp đỡ tìm kiếm câu trả lời nhưng chưa có cơ hội để giúp đỡ.\nCũng cảm ơn người đã thành lập ra hội nhóm này để <@{ctx.author.id}> có thể gặp được những người bạn sẵn sàng giúp đỡ mỗi khi gặp vấn đề khó giải quyết. Do trình độ và kiến thức về thế giới quan còn hạn chế nên không thể tránh khỏi những thắc mắc. Rất mong nhận được ý kiến đóng góp của các bạn để trau dồi thêm kinh nghiệm và hoàn thiện bản thân. \n**Xin chân thành cảm ơn**')
+
+async def setup(bot):
+    await bot.add_cog(van_mau(bot))
