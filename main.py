@@ -1,7 +1,3 @@
-
-#ssh omazio2068@raspberrypi.local -f "cd ~/Downloads/zene_bot; python /home/omazio2068/Downloads/zene_bot/main.py"
-#ssh omazio2068@raspberrypi.local -f "cd ~/Downloads/zene_bot; pkill -f /home/omazio2068/Downloads/zene_bot/main.py"
-
 import discord 
 import asyncio
 import time
